@@ -377,7 +377,7 @@ a:focus {
 
 .hero-carousel {
   height: 560px;
-  color: #fff;
+  color: rgb(11, 10, 10);
 }
 
 .hero-carousel .carousel-inner .carousel-item {
