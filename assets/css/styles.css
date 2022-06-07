@@ -1076,3 +1076,7 @@ a:focus {
     top: inherit;
   }
 }
+/* prueba de fondo*/
+.flagshipII{
+  background-color: #17EA67;
+}
