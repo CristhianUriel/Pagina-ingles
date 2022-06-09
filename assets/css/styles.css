@@ -66,8 +66,8 @@ a:focus {
 }
 
 .btn-primary {
-  background: #40babd;
-  border: 1px solid #40babd;
+  background: #1d6dee;
+  border: 1px solid #1d6dee;
   color: #fff;
 }
 
@@ -1077,6 +1077,3 @@ a:focus {
   }
 }
 /* prueba de fondo*/
-.flagshipII{
-  background-color: #17EA67;
-}
