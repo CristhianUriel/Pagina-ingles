@@ -107,3 +107,6 @@ body {
 .signup-form form a:hover {
     text-decoration: underline;
 }
+h2{
+    font-size: 28px;
+}
