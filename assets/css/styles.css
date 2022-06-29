@@ -456,7 +456,9 @@ a:focus {
 }
 
 .about-section .items-wrapper .figure-image {
-  max-width: 220px;
+  width: 220px;
+  height: 220px;
+  
 }
 
 .about-section .items-wrapper .item-inner {
@@ -1076,4 +1078,7 @@ a:focus {
     top: inherit;
   }
 }
-/* prueba de fondo*/
+/* animales*/
+
+
+

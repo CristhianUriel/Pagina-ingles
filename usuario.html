@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,32 +14,35 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/img.css">
 </head>
 <body>
-    <div class="text-dark ">
-        <br>
-         <header class="  text-dark">
-                <div class="container"> <form role="form">
-                    <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
+    
+        
+        <section class="text-dark">
+            <div class="container"> 
+                    <form role="form"clases="/examples/actions/confirmation.php" method="post">
+                     <div class="row">
+                     <div class="col-md-4 col-md-offset-4">
                         <form role="form">
-                            <section class="form-group">
+                            <div class="form-group">
                                 <img src="/English.png" alt="" class="img-thumbnail" >
-                                <label for="usuario">Correo electronico:</label>
-                                <input type="text" class="form-control" id="usuario" placeholder="Correo electronico">
-                            </section>
-                            <section class="form-group">
+                                <label for="usuario">Correo electrónico:</label>
+                                <input type="email" class="form-control" id="usuario" placeholder="Correo electronico" required="required">
+                            </div>
+                            <div class="form-group">
                                 <label for="pwd">Contraseña:</label>
-                                <input type="password" class="form-control" id="pwd" placeholder="Contraseña">
-                            </section>
+                                <input type="password" class="form-control" id="pwd" placeholder="Contraseña" required="required">
+                            </div>
                         <!--la etiqueta a es solo una prueba para enlazar index-->
-                            <p><h5 class="text-dark">¿No tienes cuenta?</h5><a href="registarse.html" class="text-primary"><h5>Resgistrarse <span ></span></h5></a></p>
-                            <button type="submit" class="btn btn-info" ><a href="/index.html" class="text-light">Iniciar sesion</a></button>  
-                        </form>       
-                    </div>
+                            <p><h5 class="text-dark">¿No tienes cuenta?</h5><a href="registarse.html" class="text-primary"><h5>Resgístrate</h5></a></p>
+                            <button type="submit" class="btn btn-info btn-block" >Iniciar sesión</button>  
+                        </form>
+                    </form>       
                 </div>
-        </header>
-    </div>
+            </div> 
+        </section>
+    
 
       
     <!-- Javascript -->          
